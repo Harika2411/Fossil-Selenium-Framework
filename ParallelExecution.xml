@@ -1,0 +1,18 @@
+
+<suite thread-count="4" parallel="tests" name="ParallelSuite">
+  <test thread-count="4" parallel="tests" name="ParallelSuiteTest-1">
+    <classes>
+      <class name="Fossil.Tests.TC_006_ValidateProductDetailsOnPDPTest"/>
+        <class name="Fossil.Tests.TC_005_SortTheProductsInOrderTest"/>
+            <class name="Fossil.Tests.TC_007_NavigateToEachCategoryTest"/>
+    </classes>
+  </test>
+  
+   <test thread-count="4" parallel="tests" name="ParallelSuiteTest-2">
+    <classes>
+      <class name="Fossil.Tests.TC_001_AddProductToCartTest"/>
+       <class name="Fossil.Tests.NG001_SignInWithInvalidNumberTest"/>
+        <class name="Fossil.Tests.TC_002_Apply_FiltersTest"/>
+    </classes>
+  </test>  <!-- ParallelSuiteTest -->
+</suite> <!-- ParallelSuite -->

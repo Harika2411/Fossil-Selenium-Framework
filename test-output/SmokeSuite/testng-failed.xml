@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SmokeSuite]">
+  <test thread-count="5" name="SmokeTest(failed)">
+    <classes>
+      <class name="Fossil.Tests.TC_003_SortProductsByPriceRangeTest">
+        <methods>
+          <include name="asConfig"/>
+          <include name="bsConfig"/>
+          <include name="sortProductsTest"/>
+          <include name="acConfig"/>
+          <include name="bmConfig"/>
+          <include name="bcConfig"/>
+          <include name="amConfig"/>
+        </methods>
+      </class> <!-- Fossil.Tests.TC_003_SortProductsByPriceRangeTest -->
+    </classes>
+  </test> <!-- SmokeTest(failed) -->
+</suite> <!-- Failed suite [SmokeSuite] -->

@@ -1,0 +1,144 @@
+<html>
+<head>
+<title>TestNG:  SmokeTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>SmokeTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>13/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Nov 15 09:24:45 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>64 seconds (64976 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Fossil.Tests.TC_002_Apply_FiltersTest.checkFiltersTest()'><b>checkFiltersTest</b><br>Test class: Fossil.Tests.TC_002_Apply_FiltersTest</td>
+<td></td>
+<td>1</td>
+<td>Fossil.Tests.TC_002_Apply_FiltersTest@20f12539</td></tr>
+<tr>
+<td title='Fossil.Tests.TC_007_NavigateToEachCategoryTest.navigateToSectionsTest()'><b>navigateToSectionsTest</b><br>Test class: Fossil.Tests.TC_007_NavigateToEachCategoryTest<br>Parameters: New</td>
+<td></td>
+<td>0</td>
+<td>Fossil.Tests.TC_007_NavigateToEachCategoryTest@4212a0c8</td></tr>
+<tr>
+<td title='Fossil.Tests.TC_001_AddProductToCartTest.addToCartTest()'><b>addToCartTest</b><br>Test class: Fossil.Tests.TC_001_AddProductToCartTest</td>
+<td></td>
+<td>5</td>
+<td>Fossil.Tests.TC_001_AddProductToCartTest@11981797</td></tr>
+<tr>
+<td title='Fossil.Tests.TC_007_NavigateToEachCategoryTest.navigateToSectionsTest()'><b>navigateToSectionsTest</b><br>Test class: Fossil.Tests.TC_007_NavigateToEachCategoryTest<br>Parameters: Jewelry</td>
+<td></td>
+<td>0</td>
+<td>Fossil.Tests.TC_007_NavigateToEachCategoryTest@4212a0c8</td></tr>
+<tr>
+<td title='Fossil.Tests.TC_005_SortTheProductsInOrderTest.sortingProductsTest()'><b>sortingProductsTest</b><br>Test class: Fossil.Tests.TC_005_SortTheProductsInOrderTest</td>
+<td></td>
+<td>1</td>
+<td>Fossil.Tests.TC_005_SortTheProductsInOrderTest@77a98a6a</td></tr>
+<tr>
+<td title='Fossil.Tests.TC_003_SortProductsByPriceRangeTest.sortProductsTest()'><b>sortProductsTest</b><br>Test class: Fossil.Tests.TC_003_SortProductsByPriceRangeTest</td>
+<td></td>
+<td>1</td>
+<td>Fossil.Tests.TC_003_SortProductsByPriceRangeTest@4409e975</td></tr>
+<tr>
+<td title='Fossil.Tests.NG001_SignInWithInvalidNumberTest.invalidProductSearchTest()'><b>invalidProductSearchTest</b><br>Test class: Fossil.Tests.NG001_SignInWithInvalidNumberTest</td>
+<td></td>
+<td>1</td>
+<td>Fossil.Tests.NG001_SignInWithInvalidNumberTest@45905bff</td></tr>
+<tr>
+<td title='Fossil.Tests.TC_004_UpdateQuantityInCartTest.checkQuantity()'><b>checkQuantity</b><br>Test class: Fossil.Tests.TC_004_UpdateQuantityInCartTest</td>
+<td></td>
+<td>7</td>
+<td>Fossil.Tests.TC_004_UpdateQuantityInCartTest@5bc9ba1d</td></tr>
+<tr>
+<td title='Fossil.Tests.TC_007_NavigateToEachCategoryTest.navigateToSectionsTest()'><b>navigateToSectionsTest</b><br>Test class: Fossil.Tests.TC_007_NavigateToEachCategoryTest<br>Parameters: Womens</td>
+<td></td>
+<td>1</td>
+<td>Fossil.Tests.TC_007_NavigateToEachCategoryTest@4212a0c8</td></tr>
+<tr>
+<td title='Fossil.Tests.TC_007_NavigateToEachCategoryTest.navigateToSectionsTest()'><b>navigateToSectionsTest</b><br>Test class: Fossil.Tests.TC_007_NavigateToEachCategoryTest<br>Parameters: Mens</td>
+<td></td>
+<td>0</td>
+<td>Fossil.Tests.TC_007_NavigateToEachCategoryTest@4212a0c8</td></tr>
+<tr>
+<td title='Fossil.Tests.TC_007_NavigateToEachCategoryTest.navigateToSectionsTest()'><b>navigateToSectionsTest</b><br>Test class: Fossil.Tests.TC_007_NavigateToEachCategoryTest<br>Parameters: Wallets</td>
+<td></td>
+<td>0</td>
+<td>Fossil.Tests.TC_007_NavigateToEachCategoryTest@4212a0c8</td></tr>
+<tr>
+<td title='Fossil.Tests.TC_007_NavigateToEachCategoryTest.navigateToSectionsTest()'><b>navigateToSectionsTest</b><br>Test class: Fossil.Tests.TC_007_NavigateToEachCategoryTest<br>Parameters: Bags</td>
+<td></td>
+<td>0</td>
+<td>Fossil.Tests.TC_007_NavigateToEachCategoryTest@4212a0c8</td></tr>
+<tr>
+<td title='Fossil.Tests.TC_006_ValidateProductDetailsOnPDPTest.navigateFromPlpToPDPTest()'><b>navigateFromPlpToPDPTest</b><br>Test class: Fossil.Tests.TC_006_ValidateProductDetailsOnPDPTest</td>
+<td></td>
+<td>4</td>
+<td>Fossil.Tests.TC_006_ValidateProductDetailsOnPDPTest@549949be</td></tr>
+</table><p>
+</body>
+</html>
